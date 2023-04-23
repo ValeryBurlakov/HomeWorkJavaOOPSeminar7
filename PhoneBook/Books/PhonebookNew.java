@@ -38,7 +38,7 @@ public class PhonebookNew implements IPhoneBook, IGettersBook, ISortingAlphabeti
     
     @Override
     public void sortContactsAlphabetically() {
-        System.out.print("Отсортированные по алфавиту");
+        System.out.print("Отсортированные по алфавиту ");
         Collections.sort(contacts, new Comparator<Contact>() {
             @Override
             public int compare(Contact c1, Contact c2) {
